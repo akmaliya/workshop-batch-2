@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    font-family: "Poppins", serif;
+}
+* {
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(206, 39, 17);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.navbar-logo h3 {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+.navbar-links li{
+    margin: 0 15px;
+}
+.navbar-links a {
+    text-decoration: none;
+    color: rgb(238, 146, 146);
+    font-size: 21px;
+    transition: 0.2s;
+}
+.navbar-links a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    transition: 0.2s;
+}
+.pariwisata{
+    background-color: rgb(240, 240, 7);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.pariwisata-content h1 {
+margin-bottom: 20px;
+font-size: 24px;
+}
+.pariwisata-content p{
+margin-bottom: 20px;
+font-size: 19px;
+color: black;
+}
+.pariwisata-images .img_native{
+border-radius: 10px;
+box-shadow: 1px 2px 3px black;
+}
+.Active{
+    color: black important;
+}
+.color_native{
+    color: beige important;
+}
